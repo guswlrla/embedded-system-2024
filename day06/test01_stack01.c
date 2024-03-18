@@ -63,5 +63,5 @@ int pop()
     return -1; // 잘못된 경우 -1을 리턴
   }
   return stack[top--];
-  // top--;
+  //top--;
 }
