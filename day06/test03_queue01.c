@@ -15,7 +15,7 @@ void enqueue(int _data)
     printf("queue overflow!!\n");
     return;
   }
-  queue[++_rear] = _data;
+  queue[++rear] = _data;
 }
 
 int dequeue()
