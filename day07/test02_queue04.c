@@ -52,5 +52,8 @@ void enQueue(linkQ* alq, int data)
 
 void deQueue(linkQ* alq)
 {
-    node* temp;
+    node* curr = alq->front;
+    alq->front = alq->front->link;
+    printf("dq: %d\n", curr->data);
+    free(curr);
 }

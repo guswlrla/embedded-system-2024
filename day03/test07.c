@@ -1,3 +1,6 @@
+// date : 2024-03-13
+// desc : 출력
+
 #include <stdio.h>
 
 void main()
