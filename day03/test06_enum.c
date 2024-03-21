@@ -5,7 +5,7 @@
 
 void main()
 {
-  enum season {SPRING = 5, SUMMER, FALL, WINTER} s;
+  enum season {SPRING = 5, SUMMER, FALL, WINTER} s; // 열거형 별칭 s
   s = SPRING;
   printf("%d\n", s); // 5
 
