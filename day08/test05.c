@@ -10,6 +10,7 @@ void main()
 {
     char msg[] = "Linux Test!!\n";
     int fd;
+    
     open("test02.txt", O_CREAT | O_WRONLY);
     if(fd == -1) {
         printf("file open error");
