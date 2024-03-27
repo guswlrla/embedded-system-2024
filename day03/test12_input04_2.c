@@ -12,3 +12,4 @@ void main()
     scanf("%c", &ch);
     printf("%d, %c\n", ch, n);
 }
+//수정
