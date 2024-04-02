@@ -1,15 +1,20 @@
+// date : 2024-03-13
+// desc : 입력
+
 #include <stdio.h>
 
 void main()
 {
-    char ch, ch2;
+    char ch;
     int n;
-    // printf("문자: ");
-    // scanf("%c", &ch);
-    printf("학번: ");
+
+    printf("학번을 입력하세요 : ");
     scanf("%d", &n);
-    printf("이름:  ");
+
+    getchar();
+
+    printf("이름을 입력하세요 :  ");
     scanf("%c", &ch);
-    printf("%d, %c\n", ch, n);
+
+    printf("%d, %c\n", n, ch);
 }
-//수정

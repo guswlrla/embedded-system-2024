@@ -1,3 +1,6 @@
+// date : 2024-03-13
+// desc : 계산기
+
 #include <stdio.h>
 
 void calculate(int a, int b, char operator) {
@@ -29,10 +32,13 @@ void main() {
 
     printf("계산할 첫 번째 정수를 입력하세요: ");
     scanf("%d", &num1);
+
     printf("계산할 두 번째 정수를 입력하세요: ");
     scanf("%d", &num2);
+
     printf("수행할 연산을 입력하세요 (+, -, *, /): ");
-    scanf(" %c", &operator); // %c 앞의 공백은 이전 입력 후 남아있는 개행 문자를 무시하기 위함.
+    scanf("%c", &operator);
+    operator = getchar();
 
     calculate(num1, num2, operator);
 }

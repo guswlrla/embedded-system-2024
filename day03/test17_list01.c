@@ -1,3 +1,6 @@
+// date : 2024-03-13
+// desc : 연결리스트
+
 #include <stdio.h>
 #include <stdlib.h>
 
